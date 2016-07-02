@@ -1,0 +1,38 @@
+{
+ "name"         : "Imperial Streams [COLOR ff0084ff]-[/COLOR] Search Play ([COLOR FF0084FF]Q[/COLOR])",
+ "repository"   : "repository.mdrepo",
+ "plugin"       : "plugin.video.mdimperialstreams",
+ "priority"     : 900,
+ "id"           : "q.imperialstreams.search.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.mdimperialstreams/?description&iconimage=special://home/addons/plugin.video.mdimperialstreams/resources/art/SEARCH_MOVIES.png&mode=9&name=&url=url",
+    "steps"     : [
+     "@keyboard:{title}",
+     ".*{title}.*{year}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.mdimperialstreams/?description&iconimage=special://home/addons/plugin.video.mdimperialstreams/resources/art/SEARCH.png&mode=10&name=&url=url",
+    "steps"     : [
+     "@keyboard:{clearname}",
+     ".*$${clearname}.*",
+     ".*{season}.*",
+     ".*{title}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
