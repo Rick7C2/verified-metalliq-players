@@ -9,9 +9,8 @@
  "movies"       : [
   [
    {
-    "link"      : "plugin://plugin.video.mdimperialstreams/?description&iconimage=special://home/addons/plugin.video.mdimperialstreams/resources/art/SEARCH_MOVIES.png&mode=9&name=&url=url",
+    "link"      : "plugin://plugin.video.mdimperialstreams/?description&iconimage=special://home/addons/plugin.video.mdimperialstreams/resources/art/SEARCH_MOVIES.png&mode=3&name=&url=http://imoviemax.se/?s={title}",
     "steps"     : [
-     "@keyboard:{title}",
      ".*{title}.*{year}.*"
      ],
     "action"    : "PLAY"
@@ -21,9 +20,8 @@
  "tvshows"      : [
   [
    {
-    "link"      : "plugin://plugin.video.mdimperialstreams/?description&iconimage=special://home/addons/plugin.video.mdimperialstreams/resources/art/SEARCH.png&mode=10&name=&url=url",
+    "link"      : "plugin://plugin.video.mdimperialstreams/?description&iconimage=special://home/addons/plugin.video.mdimperialstreams/resources/art/SEARCH.png&mode=4&name=&url=http://tvshows.imoviemax.se/?s={clearname}",
     "steps"     : [
-     "@keyboard:{clearname}",
      ".*$${clearname}.*",
      ".*{season}.*",
      ".*{title}.*"
