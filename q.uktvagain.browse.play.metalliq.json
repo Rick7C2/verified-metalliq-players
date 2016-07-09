@@ -1,9 +1,9 @@
 {
- "name"         : "UKTV Now [COLOR FF0084FF]-[/COLOR] Browse Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "UKTV Again [COLOR FF0084FF]-[/COLOR] Browse Play ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.metalkettle",
  "plugin"       : "plugin.video.uktvnow",
  "priority"     : 800,
- "id"           : "q.uktvnow.browse.play",
+ "id"           : "q.uktvagain.browse.play",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],

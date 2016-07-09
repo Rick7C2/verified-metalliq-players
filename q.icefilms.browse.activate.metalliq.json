@@ -9,38 +9,42 @@
  "movies"       : [
   [
    {
-    "link"      : "plugin://plugin.video.icefilms/?mode=1&name=A-Z%20Directories&url=http://www.icefilms.info/movies/a-z/1",
+    "link"      : "plugin://plugin.video.icefilms/?mode=2&name=A&url=http://www.icefilms.info/movies/a-z/{sorttitle[0]}",
     "steps"     : [
-     "{sorttitle[0]}",
-     ".*{title}.*{year}.*"
+     "{title}.*{year}.*"
      ],
     "action"    : "ACTIVATE"
    },
    {
-    "link"      : "plugin://plugin.video.icefilms/?mode=2&name=A-Z%20List&url=http://www.icefilms.info/standup/a-z/1",
+    "link"      : "plugin://plugin.video.icefilms/?mode=2&name=A&url=http://www.icefilms.info/movies/a-z/1",
     "steps"     : [
-     "{sorttitle[0]}",
-     ".*{title}.*"
+     "{title}.*{year}.*"
      ],
     "action"    : "ACTIVATE"
    }
   ]
  ],
- "tvshows"      : [
+ "tvshows"       : [
   [
    {
-    "link"      : "plugin://plugin.video.icefilms/?mode=10&name=A-Z%20Directories&url=http://www.icefilms.info/tv/a-z/1",
+    "link"      : "plugin://plugin.video.icefilms/?mode=11&name=A&url=http://www.icefilms.info/tv/a-z/{sortname[0]}",
     "steps"     : [
-     "{sortname[0]}.*",
-     ".*{clearname}.*{year}.*",
-     ".* {season} .*",
+     "{clearname}$$.*",
+     ".*Season$${season}$$.*",
+     "{season}x{episode:02d}.*"
+     ],
+    "action"    : "ACTIVATE"
+   },
+   {
+    "link"      : "plugin://plugin.video.icefilms/?mode=11&name=A&url=http://www.icefilms.info/tv/a-z/1",
+    "steps"     : [
+     "{clearname}$$.*",
+     ".*Season$${season}$$.*",
      "{season}x{episode:02d}.*"
      ],
     "action"    : "ACTIVATE"
    }
   ]
  ],
- "music"        : [],
- "musicvideos"  : [],
  "live"         : []
 }
