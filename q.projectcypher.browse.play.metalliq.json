@@ -1,9 +1,9 @@
 {
  "name"         : "Project Cypher [COLOR FF0084FF]-[/COLOR] Browse Play ([COLOR FF0084FF]Q[/COLOR])",
- "repository"   : "na",
+ "repository"   : "repository.merlin",
  "plugin"       : "plugin.video.ProjectCypher",
  "priority"     : 800,
- "id"           : "q.ProjectCypher.browse.play",
+ "id"           : "q.projectcypher.browse.play",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

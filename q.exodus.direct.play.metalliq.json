@@ -6,15 +6,7 @@
  "id"           : "q.exodus.direct.play",
  "filters"      : {},
  "postprocess"  : "",
- "movies"       : [
-  [
-   {
-    "link"      : "plugin://plugin.video.exodus/?action=movieSearch&query={title}",
-    "steps"     : [],
-    "action"    : "ACTIVATE"
-   }
-  ]
- ],
+ "movies"       : [],
  "tvshows"      : [
   [
    {
