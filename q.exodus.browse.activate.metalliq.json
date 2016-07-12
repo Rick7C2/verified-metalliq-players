@@ -1,9 +1,9 @@
 {
- "name"         : "Exodus [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Exodus [COLOR FF0084FF]-[/COLOR] Browse Activate ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.exodus",
  "plugin"       : "plugin.video.exodus",
- "priority"     : 500,
- "id"           : "q.exodus.direct.play",
+ "priority"     : 800,
+ "id"           : "q.exodus.browse.activate",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],
