@@ -2,7 +2,7 @@
  "name"         : "Super Favourites' iSearch [COLOR FF0084FF]-[/COLOR] Title Activate ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.spoyser",
  "plugin"       : "plugin.program.super.favourites",
- "priority"     : 600,
+ "priority"     : 1000,
  "id"           : "q.isearch.title.activate",
  "filters"      : {},
  "postprocess"  : "",

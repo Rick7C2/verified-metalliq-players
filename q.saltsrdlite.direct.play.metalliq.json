@@ -1,0 +1,30 @@
+{
+ "name"         : "Salts RD Lite [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "repository"   : "repository.xvbmc",
+ "plugin"       : "plugin.video.saltsrd.lite",
+ "priority"     : 500,
+ "id"           : "q.saltsrdlite.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.saltsrd.lite/?title={title}&video_type=Movie&trakt_id={trakt}&mode=get_sources&dialog=True&year={year}",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.saltsrd.lite/?ep_airdate={firstaired}&trakt_id={trakt}&episode={episode}&mode=get_sources&dialog=True&title={clearname}&ep_title={title}&season={season}&year={year}&video_type=Episode",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
