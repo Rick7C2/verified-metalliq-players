@@ -1,5 +1,5 @@
 {
- "name"         : "[COLOR FFD15FEE]Quasar[/COLOR] [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Quasar [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.unofficialquasar",
  "plugin"       : "plugin.video.quasar",
  "priority"     : 500,

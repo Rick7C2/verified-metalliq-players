@@ -1,6 +1,6 @@
 {
  "name"         : "Torrenter [COLOR FF0084FF]-[/COLOR] Search Activate ([COLOR FF0084FF]T[/COLOR])",
- "repository"   : "repository.pulsarunofficialmirror",
+ "repository"   : "repository.myshows.me",
  "plugin"       : "plugin.video.torrenter",
  "priority"     : 900,
  "id"           : "t.torrenter.search.activate",
