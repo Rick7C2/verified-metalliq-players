@@ -1,0 +1,60 @@
+{
+ "name"         : "Explore [COLOR FF0084FF]-[/COLOR] ExtendedInfo's YouTube ([COLOR FF0084FF]Q[/COLOR])",
+ "plugin"       : "script.extendedinfo",
+ "priority"     : 700,
+ "id"           : "explore.extendedinfo_yt.q",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={title}+{year}",
+    "steps"     : [
+     "{title}.*{year}.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={title}",
+    "steps"     : [
+     "{title}.*{year}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}+{season}x{episode}",
+    "steps"     : [
+     ".*{clearname}.*{season}x{episode}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "music"        : [
+  [
+   {
+    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{track}",
+    "steps"     : [
+     ".*{artist}.*{track}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [
+  [
+   {
+    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{track}",
+    "steps"     : [
+     ".*{artist}.*{track}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "live"         : []
+}

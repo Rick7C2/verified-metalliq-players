@@ -1,0 +1,28 @@
+{
+ "name"         : "Search [COLOR FF0084FF]-[/COLOR] Torrenter ([COLOR FF0084FF]T[/COLOR])",
+ "repository"   : "repository.myshows.me",
+ "plugin"       : "plugin.video.torrenter",
+ "priority"     : 900,
+ "id"           : "searcht.torrenter.t",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.torrenter/?action=search&url={title}",
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.torrenter/?action=search&url={name}",
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}

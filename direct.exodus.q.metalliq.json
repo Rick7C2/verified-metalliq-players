@@ -1,0 +1,30 @@
+{
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Exodus ([COLOR FF0084FF]Q[/COLOR])",
+ "repository"   : "repository.exodus",
+ "plugin"       : "plugin.video.exodus",
+ "priority"     : 200,
+ "id"           : "direct.exodus.q",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.exodus/?action=movies&url=http://api-v2launch.trakt.tv/search?type=movie%26limit=100%26query={title}",
+    "steps"     : [],
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.exodus/?action=episodes&imdb={imdb}&season={season}&tvdb={id}&tvshowtitle={clearname}&year={year}",
+    "steps"     : [],
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
