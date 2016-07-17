@@ -3,7 +3,7 @@
  "repository"   : "repository.xbmchub",
  "plugin"       : "plugin.video.ustvnow.tva",
  "priority"     : 800,
- "id"           : "q.ustvnow.browse.play",
+ "id"           : "navigate.ustvnow.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],

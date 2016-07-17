@@ -3,7 +3,7 @@
  "repository"   : "repository.xvbmc",
  "plugin"       : "plugin.video.xvbmc.troma",
  "priority"     : 700,
- "id"           : "q.tromachannel.browse.play",
+ "id"           : "explore.tromachannel.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

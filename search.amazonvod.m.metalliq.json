@@ -1,9 +1,9 @@
 {
- "name"         : "Amazon VOD [COLOR FF0084FF]-[/COLOR] Search Play ([COLOR FF0084FF]M[/COLOR])",
- "repository"   : "",
+ "name"         : "Search [COLOR FF0084FF]-[/COLOR] Amazon VOD ([COLOR FF0084FF]M[/COLOR])",
+ "repository"   : "na",
  "plugin"       : "plugin.video.amazon-test",
  "priority"     : 900,
- "id"           : "m.amazonvod.search.play",
+ "id"           : "search.amazonvod.m",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
