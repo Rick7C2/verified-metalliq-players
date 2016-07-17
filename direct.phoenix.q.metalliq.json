@@ -1,9 +1,9 @@
 {
- "name"         : "Phoenix [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Phoenix ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.xbmchub",
  "plugin"       : "plugin.video.phstreams",
- "priority"     : 500,
- "id"           : "q.phoenix.direct.play",
+ "priority"     : 200,
+ "id"           : "direct.phoenix.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

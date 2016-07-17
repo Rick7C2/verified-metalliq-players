@@ -1,9 +1,9 @@
 {
- "name"         : "Velocity [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Velocity ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.BlazeRepo",
  "plugin"       : "plugin.video.velocity",
- "priority"     : 500,
- "id"           : "provider.q.velocity.direct.play",
+ "priority"     : 200,
+ "id"           : "direct.velocity.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

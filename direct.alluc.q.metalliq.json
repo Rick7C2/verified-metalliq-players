@@ -1,9 +1,9 @@
 {
- "name"         : "Alluc [COLOR FF0084FF]-[/COLOR] Browse Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Alluc ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.dudehere.plugins",
  "plugin"       : "plugin.video.alluc.api",
- "priority"     : 500,
- "id"           : "q.alluc.direct.play",
+ "priority"     : 200,
+ "id"           : "direct.alluc.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

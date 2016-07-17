@@ -1,9 +1,9 @@
 {
- "name"         : "What the Furk [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] What the Furk ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.Kinkin",
  "plugin"       : "plugin.video.whatthefurk",
- "priority"     : 500,
- "id"           : "q.whatthefurk.direct.activate",
+ "priority"     : 200,
+ "id"           : "direct.whatthefurk.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

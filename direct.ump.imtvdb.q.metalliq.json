@@ -1,9 +1,9 @@
 {
- "name"         : "UMP IMDb/TVDb [COLOR FF0084FF]-[/COLOR] Direct Activate ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] UMP IM/TV-Db ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.boogie",
  "plugin"       : "plugin.program.ump",
- "priority"     : 500,
- "id"           : "q.ump.imtvdb.direct.activate",
+ "priority"     : 200,
+ "id"           : "direct.ump.imtvdb.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

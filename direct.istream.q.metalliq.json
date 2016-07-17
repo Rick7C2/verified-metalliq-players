@@ -1,9 +1,9 @@
 {
- "name"         : "iSTREAM [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] ISTREAM ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.istream",
  "plugin"       : "script.icechannel",
- "priority"     : 500,
- "id"           : "q.istream.direct.play",
+ "priority"     : 200,
+ "id"           : "direct.istream.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

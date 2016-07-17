@@ -1,9 +1,9 @@
 {
- "name"         : "The Royal We [COLOR FF0084FF]-[/COLOR] Direct Activate ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] The Royal We ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.dudehere.plugins",
  "plugin"       : "plugin.video.theroyalwe",
- "priority"     : 500,
- "id"           : "q.theroyalwe.direct.activate",
+ "priority"     : 200,
+ "id"           : "direct.theroyalwe.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

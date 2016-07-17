@@ -1,9 +1,9 @@
 {
- "name"         : "Quasar [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Quasar ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.unofficialquasar",
  "plugin"       : "plugin.video.quasar",
- "priority"     : 500,
- "id"           : "q.quasar.direct.play",
+ "priority"     : 200,
+ "id"           : "direct.quasar.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [

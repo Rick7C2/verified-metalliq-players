@@ -1,9 +1,9 @@
 {
- "name"         : "Specto [COLOR FF0084FF]-[/COLOR] Direct Play ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Specto ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.filmkodi.com",
  "plugin"       : "plugin.video.specto",
- "priority"     : 500,
- "id"           : "q.specto.direct.play",
+ "priority"     : 200,
+ "id"           : "direct.specto.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
