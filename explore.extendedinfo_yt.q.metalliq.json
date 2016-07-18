@@ -34,7 +34,7 @@
    }
   ]
  ],
- "music"        : [
+ "musicvideos"  : [
   [
    {
     "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{track}",
@@ -45,7 +45,7 @@
    }
   ]
  ],
- "musicvideos"  : [
+ "music"        : [
   [
    {
     "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{track}",

@@ -20,7 +20,6 @@
   ]
  ],
  "tvshows"      : [],
- "music"        : [],
  "musicvideos"  : [
   [
    {
@@ -41,6 +40,7 @@
    }
   ]  
  ],
+ "music"        : [],
  "live"         : [
   [
    {

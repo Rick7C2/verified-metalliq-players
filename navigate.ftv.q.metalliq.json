@@ -8,6 +8,8 @@
  "postprocess"  : "",
  "movies"       : [],
  "tvshows"      : [],
+ "musicvideos"  : [],
+ "music"        : [],
  "live"         : [
   [
    {
