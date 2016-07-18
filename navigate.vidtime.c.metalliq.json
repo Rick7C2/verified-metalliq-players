@@ -3,7 +3,7 @@
  "repository"   : "repository.VinManJSV",
  "plugin"       : "plugin.video.VidTime",
  "priority"     : 900,
- "id"           : search.vidtime.c",
+ "id"           : "search.vidtime.c",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],
