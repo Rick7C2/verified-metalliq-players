@@ -3,7 +3,7 @@
  "repository"   : "repository.myshows.me",
  "plugin"       : "plugin.video.torrenter",
  "priority"     : 900,
- "id"           : "searcht.torrenter.t",
+ "id"           : "search.torrenter.t",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
