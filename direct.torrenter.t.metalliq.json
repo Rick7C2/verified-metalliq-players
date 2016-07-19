@@ -1,15 +1,16 @@
 {
- "name"         : "Search [COLOR FF0084FF]-[/COLOR] Torrenter ([COLOR FF0084FF]T[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Torrenter ([COLOR FF0084FF]T[/COLOR])",
  "repository"   : "repository.myshows.me",
  "plugin"       : "plugin.video.torrenter",
- "priority"     : 900,
- "id"           : "search.torrenter.t",
+ "priority"     : 200,
+ "id"           : "direct.torrenter.t",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
   [
    {
     "link"      : "plugin://plugin.video.torrenter/?action=search&url={title}",
+    "steps"     : [],
     "action"    : "ACTIVATE"
    }
   ]
@@ -18,6 +19,7 @@
   [
    {
     "link"      : "plugin://plugin.video.torrenter/?action=search&url={name}",
+    "steps"     : [],
     "action"    : "ACTIVATE"
    }
   ]
