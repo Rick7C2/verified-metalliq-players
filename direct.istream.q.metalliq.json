@@ -1,5 +1,5 @@
 {
- "name"         : "Direct [COLOR FF0084FF]-[/COLOR] iSTREAM ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] ISTREAM ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.istream",
  "plugin"       : "script.icechannel",
  "priority"     : 200,

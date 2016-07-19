@@ -1,5 +1,5 @@
 {
- "name"         : "Search [COLOR ff0084ff]-[/COLOR] niter ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Search [COLOR ff0084ff]-[/COLOR] Niter ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.mdrepo",
  "plugin"       : "plugin.video.mdniter",
  "priority"     : 900,
