@@ -1,5 +1,5 @@
 {
- "name"         : "Explore [COLOR FF0084FF]-[/COLOR] [COLOR FF0084FF]Q[/COLOR]lick[COLOR FF0084FF]P[/COLOR]lay YouTube ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Explore [COLOR FF0084FF]-[/COLOR] QlickPlay's YouTube ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.q",
  "plugin"       : "script.qlickplay",
  "priority"     : 700,

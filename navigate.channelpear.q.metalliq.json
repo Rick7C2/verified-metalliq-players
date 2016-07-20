@@ -1,5 +1,5 @@
 {
- "name"         : "Navigate [COLOR FF0084FF]-[/COLOR] channel PEAR ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Navigate [COLOR FF0084FF]-[/COLOR] Channel PEAR ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.podgod",
  "plugin"       : "plugin.video.channelpear",
  "priority"     : 800,

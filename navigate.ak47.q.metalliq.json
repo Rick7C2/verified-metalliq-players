@@ -1,5 +1,5 @@
 {
- "name"         : "Navigate [COLOR FF0084FF]-[/COLOR] [COLOR red]AK[/COLOR] [COLOR yellow]-[/COLOR] [COLOR turquoise]47[/COLOR] ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Navigate [COLOR FF0084FF]-[/COLOR] AK-47 ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.Agent-47",
  "plugin"       : "plugin.video.AK-47",
  "priority"     : 800,

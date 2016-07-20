@@ -1,5 +1,5 @@
 {
- "name"         : "Navigate [COLOR FF0084FF]-[/COLOR] [COLOR lime]lihattv[/COLOR] ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Navigate [COLOR FF0084FF]-[/COLOR] Lihattv ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "na",
  "plugin"       : "plugin.video.lihattv",
  "priority"     : 800,

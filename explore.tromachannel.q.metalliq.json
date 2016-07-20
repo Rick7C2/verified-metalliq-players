@@ -1,5 +1,5 @@
 {
- "name"         : "Explore [COLOR FF0084FF]-[/COLOR] [COLOR lime]X[/COLOR]vBMC's [COLOR red]Troma[/COLOR] Channel ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Explore [COLOR FF0084FF]-[/COLOR] XvBMC's Troma Channel ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.xvbmc",
  "plugin"       : "plugin.video.xvbmc.troma",
  "priority"     : 700,
