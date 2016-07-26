@@ -14,7 +14,7 @@
    {
     "link"      : "plugin://plugin.audio.mixcloud/?mode=30",
     "steps"     : [
-     "keyboard:{cleartrack_+}",
+     "@keyboard:{cleartrack_+}",
      ".*{artist}.*{track}.*"
      ],
     "action"    : "PLAY"

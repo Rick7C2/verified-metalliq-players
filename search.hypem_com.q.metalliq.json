@@ -14,7 +14,7 @@
    {
     "link"      : "plugin://plugin.audio.hypem_com/?mode=search",
     "steps"     : [
-     "keyboard:{cleartrack_+}",
+     "@keyboard:{cleartrack_+}",
      ".*{artist}.*{track}.*"
      ],
     "action"    : "PLAY"

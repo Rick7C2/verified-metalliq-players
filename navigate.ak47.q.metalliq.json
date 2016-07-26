@@ -49,25 +49,25 @@
    {
     "link"      : "plugin://plugin.video.AK-47/",
     "steps"     : [
-     ".*live.*",
+     "($$.*$$).*live.*($$.*$$)",
      "@anynotcontaining:FilmON",
-     "{name}"
+     "({name|ws(%20)|{name|ws(-)|{name|ws(.)})"
      ],
     "action"    : "PLAY"
    },
    {
     "link"      : "plugin://plugin.video.AK-47/",
     "steps"     : [
-     ".*live.*",
+     "($$.*$$).*live.*($$.*$$)",
      "@anynotcontaining:FilmON",
-     ".*{name}.*"
+     ".*({name|ws(%20)|{name|ws(-)|{name|ws(.)}).*"
      ],
     "action"    : "PLAY"
    },
    {
     "link"      : "plugin://plugin.video.AK-47/",
     "steps"     : [
-     ".*live.*",
+     "($$.*$$).*live.*($$.*$$)",
      "@anynotcontaining:FilmON",
      "({basename}|{basename|ws(-)}).({extension}|{extension|number_to_text()}|{extension|text_to_number()})"
      ],
@@ -76,7 +76,7 @@
    {
     "link"      : "plugin://plugin.video.AK-47/",
     "steps"     : [
-     ".*live.*",
+     "($$.*$$).*live.*($$.*$$)",
      "@anynotcontaining:FilmON",
      ".*({basename}|{basename|ws(-)}).({extension}|{extension|number_to_text()}|{extension|text_to_number()}).*"
      ],
