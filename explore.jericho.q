@@ -13,6 +13,34 @@
  "live"         : [
   [
    {
+    "link": "plugin://plugin.video.jericho/?fanart=special://home/addons/plugin.video.jericho/fanart.jpg&mode=70&name=Sports&url",
+    "steps": [
+     "{name}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link": "plugin://plugin.video.jericho/?fanart=special://home/addons/plugin.video.jericho/fanart.jpg&mode=70&name=Sports&url",
+    "steps": [
+     "{name}.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link": "plugin://plugin.video.jericho/?fanart=special://home/addons/plugin.video.jericho/fanart.jpg&mode=70&name=Sports&url",
+    "steps": [
+     "{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()})"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link": "plugin://plugin.video.jericho/?fanart=special://home/addons/plugin.video.jericho/fanart.jpg&mode=70&name=Sports&url",
+    "steps": [
+     ".*{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()}).*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
     "link": "plugin://plugin.video.jericho/?fanart=https://www.mupload.nl/img/vhateodreq8hj.png&mode=1&name=Shadow%20Streams&url=http://pastebin.com/raw/UFq4Lt6q",
     "steps": [
      "{name}"
