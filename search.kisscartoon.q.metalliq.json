@@ -1,0 +1,31 @@
+{
+ "name"         : "Search [COLOR FF0084FF]-[/COLOR] KissCartoon ([COLOR FF0084FF]Q[/COLOR])",
+ "repository"   : "repository.thehighway",
+ "plugin"       : "plugin.video.kisscartoon",
+ "priority"     : 900,
+ "id"           : "search.kisscartoon.q",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "
+plugin://plugin.video.kisscartoon/?description=special://home/addons/plugin.video.kisscartoon/fanart.jpg&iconimage=special://home/addons/plugin.video.kisscartoon/icon.png&mode=2&name=Search&url=http://kisscartoon.me/search/page/1?s={title}",
+    "steps"     : [],
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.kisscartoon/?description=special://home/addons/plugin.video.kisscartoon/fanart.jpg&iconimage=special://home/addons/plugin.video.kisscartoon/icon.png&mode=2&name=Search&url=http://kisscartoon.me/search/page/1?s={clearname}",
+    "steps"     : [],
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
