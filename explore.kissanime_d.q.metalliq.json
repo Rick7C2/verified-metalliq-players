@@ -125,6 +125,15 @@
     "steps"     : [
      ".*{clearname}.*(Dub).*",
      "Episode {absolute_number:03d}.*",
+     ".*1080.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.kissanime/?description=special://home/addons/plugin.video.anime/fanart.jpg&iconimage=special://home/addons/plugin.video.kissanime/icon.png&mode=Search&title={clearname}",
+    "steps"     : [
+     ".*{clearname}.*(Dub).*",
+     "Episode {absolute_number:03d}.*",
      ".*720.*"
      ],
     "action"    : "PLAY"
@@ -152,6 +161,15 @@
     "steps"     : [
      ".*{clearname}.*(Sub).*",
      "Episode {absolute_number:03d}.*",
+     ".*1080.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.kissanime/?description=special://home/addons/plugin.video.anime/fanart.jpg&iconimage=special://home/addons/plugin.video.kissanime/icon.png&mode=Search&title={clearname}",
+    "steps"     : [
+     ".*{clearname}.*(Sub).*",
+     "Episode {absolute_number:03d}.*",
      ".*720.*"
      ],
     "action"    : "PLAY"
@@ -171,6 +189,15 @@
      ".*{clearname}.*(Sub).*",
      "Episode {absolute_number:03d}.*",
      ".*360.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.kissanime/?description=special://home/addons/plugin.video.kissanime/fanart.jpg&iconimage=special://home/addons/plugin.video.kissanime/icon.png&mode=Search&title={clearname}",
+    "steps"     : [
+     ".*{clearname}.*",
+     "Episode {absolute_number:03d}.*",
+     ".*1080.*"
      ],
     "action"    : "PLAY"
    },
